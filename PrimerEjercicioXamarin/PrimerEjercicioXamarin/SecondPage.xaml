@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PrimerEjercicioXamarin.SecondPage"
+             Title="SecondPage">
+    <StackLayout>
+        <Label  x:Name="lblMotero"
+                Text="Eres un motero"
+                HorizontalOptions="Center"/>
+
+        <Switch x:Name="swMotero" 
+                Toggled="swMotero_Toggled"
+                HorizontalOptions="Center"/>
+
+        <Image x:Name="imgCambiante"
+                Source="moto.jpg"
+                HorizontalOptions="Center" 
+                HeightRequest="600"
+                WidthRequest="600"/>
+
+        <Button x:Name="btnTerceraPantalla"
+                Text="¿Rellenarías una encuesta?"
+                HorizontalOptions="Center" />
+    </StackLayout>
+</ContentPage>

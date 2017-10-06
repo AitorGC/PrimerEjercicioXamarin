@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PrimerEjercicioXamarin.ThirdPage"
+             Title="ThirdScreen">
+    <StackLayout>
+        <Label Text="¿De dónde eres?" />
+
+        <Picker x:Name="pickerEncuesta"
+                HorizontalOptions="FillAndExpand">
+            <Picker.Items>
+                <x:String>España</x:String>
+                <x:String>Francia</x:String>
+                <x:String>China</x:String>
+                <x:String>México</x:String>
+                <x:String>Australia</x:String>
+            </Picker.Items>
+        </Picker>
+
+        <Button x:Name="btnConfirmar"
+                Text="Enviar Encuesta"
+                HorizontalOptions="Center" />
+
+    </StackLayout>
+</ContentPage>
